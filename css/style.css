@@ -23,7 +23,7 @@ body{
 }
 .box{
   padding: 20px;
-  border: 1px solid rgb(143, 125, 61);
+  border: 2px solid rgb(143, 125, 61);
   width: 700px;
 }
 .control.has-addon .control-field{
