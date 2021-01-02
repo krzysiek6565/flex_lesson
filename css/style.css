@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html, body{
+  height: 100%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.control.has-addon{
+  display: flex;
+}
+.control.has-addon .control-addon{
+  background: #4bbba7;
+}
+.control > * {
+  padding: .8em;
+}
+.box{
+  padding: 20px;
+  border: 1px solid rgb(143, 125, 61);
+  width: 700px;
+}
+.control.has-addon .control-field{
+  flex: 1;
+  border: 1px solid rgb(70, 238, 158);
+}
+.control:not(:last-child){
+  margin-bottom: 20px;
+}
